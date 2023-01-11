@@ -1,0 +1,33 @@
+.sidenav {
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    border-right: solid 1px rgba(0,0,0,.12);
+    position: relative;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    outline: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 8px;
+    min-width: 300px;
+}
+
+.sidenav__header {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  
+  ul li {
+    margin-top: -1px; /* Prevent double borders */
+    padding: 12px; /* Add some padding */
+  }
