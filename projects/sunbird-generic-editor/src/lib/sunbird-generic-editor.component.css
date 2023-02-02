@@ -1,0 +1,19 @@
+.drawer-container {
+  background-color: #fafafa;
+  color: rgba(0,0,0,.87);
+}
+
+.drawer-container {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  overflow: hidden;
+}
+
+.example-container {
+  height: calc(100vh - 64px);
+}
+
+
